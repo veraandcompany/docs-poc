@@ -8,7 +8,6 @@ const config: Config = {
 
   // Base URL configuration for GitHub Pages
   url: 'https://veraandcompany.github.io',
-  baseUrl: '/docs-poc/',
 
   organizationName: 'veraandcompany', // GitHub org/user
   projectName: 'docs-poc', // Repository name
