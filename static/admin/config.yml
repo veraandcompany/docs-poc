@@ -16,6 +16,8 @@ collections:
     slug: "{{slug}}"
     nested:
       depth: 10
+      summary: '{{title}}'
     fields:
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Contenido", name: "body", widget: "markdown" }
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
