@@ -46,6 +46,8 @@ jobs:
         run: npm ci
 
       - name: Import external docs
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           chmod +x scripts/import-docs.sh
           ./scripts/import-docs.sh
