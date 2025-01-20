@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: veraandcompany/docs-poc # Asegúrate de que este es tu repositorio de GitHub
+  branch: main
+  publish_mode: editorial_workflow
+
+media_folder: static/uploads
+public_folder: /uploads
+publish_mode: editorial_workflow
+
+collections:
+  - name: docs
+    label: Docs
+    folder: docs
+    create: true
+    slug: "{{slug}}"
+    nested:
+      depth: 10
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Contenido", name: "body", widget: "markdown" }
