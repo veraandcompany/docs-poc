@@ -4,7 +4,7 @@ title: Tutorial
 ---
 # Tutorial Intro
 
-Let's discover **Neurored in less than 5 minutes**.
+Let's discover **Neurored in less than 10 minutes**.
 
 ## Getting Started
 
