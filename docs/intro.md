@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # Tutorial Intro
 
-Let's discover **Neurored in less than 20 minutes**.
+Let's discover **Neurored in less than 5 minutes**.
 
 ## Getting Started
 
