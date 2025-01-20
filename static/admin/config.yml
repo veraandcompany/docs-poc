@@ -2,6 +2,7 @@ backend:
   name: github
   repo: veraandcompany/docs-poc # Asegúrate de que este es tu repositorio de GitHub
   branch: main
+  auth_scope: repo
 
 media_folder: static/uploads
 public_folder: /uploads
@@ -18,5 +19,4 @@ collections:
     fields:
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Contenido", name: "body", widget: "markdown" }
-      - { label: "Slug", name: "slug", widget: "hidden", default: "{{filename}}" }
-    meta: { path: {label: 'Path', widget: 'string', index_file: slug }}
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
