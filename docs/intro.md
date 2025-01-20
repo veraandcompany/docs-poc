@@ -4,7 +4,7 @@ title: Tutorial
 ---
 # Tutorial Intro
 
-Let's discover **Neurored in less than 5 minutes**.
+Let's discover **Neurored in less than 15 minutes**.
 
 ## Getting Started
 
@@ -31,6 +31,8 @@ npm init docusaurus@latest my-website classic
 You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
 The command also installs all necessary dependencies you need to run Docusaurus.
+
+![]()
 
 ## Start your site
 
